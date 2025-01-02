@@ -1,0 +1,530 @@
+:root {
+    --Brand006-primary: #EC6730;
+    --Neutral001: #0B0C11;
+    --Neutral004: #60626E;
+    --Neutral005: #7A7D8B;
+    --Neutral008: #F3F3F4;
+    --Neutral009: #FAF9FA;
+    --NeutralBorder: linear-gradient(#121010 15%, #121010 25%);
+}
+
+header {
+    margin-bottom: 0px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutHead {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 112px 64px;
+    background: var(--Neutral-008, #F3F3F4);
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+}
+
+.aboutHeadMain {
+    width: 100%;
+    max-width: 1313px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+
+.aboutHead svg {
+    max-width: 100% !important;
+    position: absolute;
+    width: 1000px;
+    height: 120%;
+    /* transform: rotate(135deg); */
+    fill: linear-gradient(180deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.aboutHead .svg1 {
+    left: 0;
+    top: 0;
+}
+
+.aboutHead .svg2 {
+    right: 0;
+}
+
+.aboutHeadSubTitle {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    color: var(--Brand-006-primary, #EC6730);
+    text-align: center;
+
+    /* Title/subtitle */
+    font-family: Overpass;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 104%;
+    /* 14.56px */
+    letter-spacing: -0.42px;
+    text-transform: uppercase;
+}
+
+.ahstSquare {
+    width: 4px;
+    height: 4px;
+    background: var(--Brand-006-primary, #EC6730);
+}
+
+.aboutHeadTitle {
+    max-width: 959px;
+    color: var(--Neutral-001, #0B0C11);
+
+    /* Title/h1 */
+    font-family: Overpass;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 107%;
+    /* 68.48px */
+    letter-spacing: -4.48px;
+}
+
+
+.aboutHeadP {
+    max-width: 727px;
+    color: var(--Neutral-004, #60626E);
+
+    /* Text/regular-16 */
+    font-family: Overpass;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    /* 24.8px */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutData {
+    width: 100%;
+    max-width: 1313px;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 112px 0;
+}
+
+
+.aboutDataLeft {
+    width: 100%;
+
+    p {
+        max-width: 525px;
+        color: var(--Neutral-001, #0B0C11);
+
+        /* Title/h2 */
+        font-family: Overpass;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%;
+        /* 44px */
+        letter-spacing: -2.64px;
+    }
+}
+
+
+.aboutDataRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 32px;
+}
+
+.aboutDataRightMain {
+    display: flex;
+    padding: 8px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.adrMainText {
+    color: var(--Neutral-004, #60626E);
+
+    /* Text/regular-16 */
+    font-family: Overpass;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    /* 24.8px */
+}
+
+.adrmTop {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+
+    div {
+        display: flex;
+        width: 296px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+
+.adrmBottom {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+
+    div {
+        display: flex;
+        width: 296px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+
+.adrmValue {
+    color: var(--Neutral-001, #0B0C11);
+
+    font-family: Overpass;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    /* 44px */
+    letter-spacing: -2.64px;
+}
+
+
+.aboutImg {
+    height: 600px;
+    max-height: 600px;
+
+    img {
+        height: 100%;
+        min-width: 100%;
+        object-fit: cover;
+        object-position: center;
+        max-width: 100%;
+    }
+}
+
+.ctaSectionP {
+    color: var(--Neutral-004, #60626E);
+
+    /* Text/regular-16 */
+    font-family: Overpass;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    /* 24.8px */
+}
+
+
+.valuesContainer {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    max-width: 1313px;
+    padding: 112px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.greyBG {
+    background: #F3F3F4;
+    width: 100%;
+}
+
+.valuesContainerMain {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+
+.valuesCardsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.valueCard {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    border-radius: 8px;
+    background: var(--Neutral-010, #FFF);
+    position: relative;
+    min-width: 350px;
+}
+
+.valueCard::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 4px;
+    padding: 1px;
+    background: linear-gradient(to bottom, rgba(18, 16, 16, 0.10), rgba(18, 16, 16, 0.25));
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+.valueCardTitle {
+    color: var(--Neutral-001, #0B0C11);
+
+    /* Title/h3 */
+    font-family: Overpass;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 107%;
+    /* 25.68px */
+    letter-spacing: -1.2px;
+}
+
+.valueCardText {
+    color: var(--Neutral-004, #60626E);
+
+    /* Text/regular-16 */
+    font-family: Overpass;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    /* 24.8px */
+}
+
+
+
+
+
+.aboutTeam {
+    display: flex;
+    padding: 112px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+
+    max-width: 1313px;
+    margin: auto;
+}
+
+.aboutTeamHead {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.athTitle {
+    max-width: 760px;
+    color: var(--Neutral-001, #0B0C11);
+
+    /* Title/h2 */
+    font-family: Overpass;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    /* 44px */
+    letter-spacing: -2.64px;
+}
+
+.teamCardsContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 64px 32px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+
+.teamCard {
+    max-width: 304px!important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    min-width: 300px;
+
+    img {
+        height: 296px;
+        object-fit: cover !important;
+        border-radius: 4px;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+.teamCardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.teamCardHead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+}
+
+.teamCardName {
+    color: var(--Neutral-001, #0B0C11);
+
+    /* Title/H4 */
+    font-family: Overpass;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 26px */
+    letter-spacing: -0.8px;
+    align-self: self-start;
+}
+
+.teamCardStatus {
+    color: var(--Neutral-001, #0B0C11);
+    font-family: Overpass;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 24px */
+    letter-spacing: -0.48px;
+    align-self: self-start;
+}
+
+.teamCardDescription {
+    color: var(--Neutral-004, #60626E);
+
+    /* Text/regular-16 */
+    font-family: Overpass;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    /* 24.8px */
+}
+
+.adrmText {
+    color: var(--Neutral-001, #0B0C11);
+
+/* Text/Regular/Normal */
+font-family: Overpass;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+
+
+
+
+@media (max-width: 1025px) {
+
+
+.abouthead,
+.aboutData,
+.valuesContainer,
+.aboutTeam,
+.faqs {
+    padding-right: 16px;
+    padding-left: 16px;
+
+}
+
+.question{
+    padding: 24px 8px;
+}
+.answer {
+    padding: 0 10px;
+}
+
+.adrmValue {
+    font-size: 24px;
+}
+
+.teamCard {
+    margin: auto;
+}
+
+.aboutHead {
+    padding: 64px 16px;
+}
+
+.aboutHeadTitle {
+    font-size: 48px;
+}
+
+.aboutData {
+    flex-wrap: wrap;
+}
+
+.valuesCardsContainer {
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+}

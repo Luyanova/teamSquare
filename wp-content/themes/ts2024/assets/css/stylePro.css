@@ -1,0 +1,49 @@
+:root {
+    --Brand006-primary: #EC6730;
+    --Neutral001: #0B0C11;
+    --Neutral004: #60626E;
+    --Neutral005: #7A7D8B;
+    --Neutral008: #F3F3F4;
+    --Neutral009: #FAF9FA;
+    --NeutralBorder: linear-gradient(#121010 15%, #121010 25%);
+}
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1025px) {
+
+
+
+
+
+    
+    .imageCta {
+        padding: 64px 16px;
+        height: 700px;
+    }
+
+    .imageCtaContent .titleMedium{
+        font-size: 32px;
+    }
+
+}

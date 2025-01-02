@@ -1,0 +1,23 @@
+.aioseo-opening-hours {
+	.aioseo-opening-hours-icon {
+		display: inline-block;
+		margin-right: 17px;
+	}
+	.aioseo-opening-hours-table {
+		border: transparent;
+		border-collapse: collapse;
+		border-spacing: 0;
+		margin: 10px -0.5em;
+		max-width: 100%;
+		overflow: hidden;
+		width: 100%;
+		th {
+			border: transparent;
+			padding: 0.5em;
+		}
+		td {
+			border: transparent;
+			padding: 0.5em;
+		}
+	}
+}

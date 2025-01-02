@@ -1,0 +1,36 @@
+# Configuration système
+.DS_Store
+
+# Fichiers environnementaux
+.env
+
+# Fichiers temporaires
+*.tmp
+
+# Log files
+*.log
+
+# htaccess
+/.htaccess
+
+# Configuration
+wp-config.php
+
+# Themes par défaut
+/wp-content/themes/twentytwentyfive/
+/wp-content/themes/twentytwentyfour/
+/wp-content/themes/twentytwentythree/
+/wp-content/themes/twentytwentytwo/
+
+# Plugins
+# /wp-content/plugins
+# /wp-content/splugins
+
+/license.txt
+/readme.html
+
+
+
+
+
+

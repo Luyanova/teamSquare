@@ -1,0 +1,7 @@
+# Enforce LF for all text files
+* text=auto
+
+# Specific rules for Windows executables or binaries
+*.bat text eol=crlf
+*.exe binary
+*.dll binary

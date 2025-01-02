@@ -1,0 +1,62 @@
+Plugin Name: WP Defender
+Author: WPMU DEV
+Tested up to: 6.5.2
+
+Change Log:
+
+= 4.7.1 ( 2024-05-01 ) =
+
+- Enhance: UI enhancements in the Malware Scanning screen
+
+= 4.7.0 ( 2024-04-22 ) =
+
+- Enhance: Create a dropdown for Trusted Proxy Preset
+- Enhance: Add .well-known to scan allowlist
+- Fix: Undefined array key 'path' after update
+- Fix: Fix Validation gets bypassed in Google reCAPTCHA
+- Fix: Add malware signature
+- Fix: Unlock time overlaps with the Defender logo in the footer
+
+= 4.6.0 ( 2024-03-18 ) =
+
+- New: Introducing the "Unlock Me" feature to unblock admin on lockout
+- Fix: False positive with BuddyBoss plugin on Malware scan
+- Fix: Undefined variable in two-fa.php
+
+= 4.5.1 ( 2024-02-26 ) =
+
+- Enhance: Improve IP detection with auto-detection for Cloudflare and notices for proxy configurations
+- Enhance: Compatibility with WordPress 6.5
+- Enhance: Replace the old Twitter logo with the new logo in emails
+
+= 4.5.0 ( 2024-01-24 ) =
+
+- Enhance: Compatibility with PHP 8.3
+- Enhance: Improve white-labeled emails
+- Enhance: Redesign Quarantine page
+- Fix: Scanning Issues when suspicious files are in the plugins folder and don't have plugin headers
+- Fix: Remove redundant table creation conditional guard clause
+- Fix: Rules for Defender > 2FA > Woocommerce are not overwritten over time
+- Fix: Scan flagging "All in one security" files as suspicious
+- Fix: Defender Google reCAPTCHA does not work with WooCommerce Gutenberg Checkout block
+- Fix: Masked Login not working after registration
+
+= 4.4.2 ( 2024-01-22 ) =
+
+- Enhance: Recommended IP Detection method with improved accuracy, site security, and harder-to-bypass IP banning
+
+= 4.4.1 ( 2023-12-19 ) =
+
+- Enhance: UI Enhancements
+
+= 4.4.0 ( 2023-12-11 ) =
+
+- Enhance: Adjust the size of the summary box logo
+- Enhance: Update the Twitter name and logo
+- Enhance: Update SUI to the latest version
+- Fix: Update malware signatures
+- Fix: PHP warning after activating Defender Security Headers
+- Fix: Remove Translation Link when the Whitelabel Hide Links option is enabled
+
+
+965960-1715867717-au

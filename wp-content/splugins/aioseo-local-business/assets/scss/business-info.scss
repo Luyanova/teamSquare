@@ -1,0 +1,59 @@
+.aioseo-location-box {
+	display: flex;
+
+	.d-flex {
+		display: flex;
+	}
+
+	> [class*=col] {
+		padding: 0 15px 20px;
+	}
+
+	.col {
+		flex: 1;
+	}
+
+	.col-auto {
+		flex: 0 0 auto;
+	}
+
+	.label {
+		opacity: .5;
+	}
+
+	.icon {
+		padding-right: 17px;
+	}
+
+	.aioseo-name-details {
+		padding-bottom: 10px;
+	}
+
+	.aioseo-address-details {
+		padding-bottom: 26px;
+	}
+
+	.aioseo-contact-details {
+		> div {
+			padding-bottom: 20px;
+		}
+	}
+
+	&.hide-label {
+		.label {
+			display: none;
+		}
+	}
+
+	&.hide-icon {
+		.icon {
+			display: none;
+		}
+	}
+}
+
+.aioseo-local-business-info-widget {
+	.aioseo-location-box {
+		flex-direction: column;
+	}
+}

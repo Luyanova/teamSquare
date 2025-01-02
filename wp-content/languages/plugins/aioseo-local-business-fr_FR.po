@@ -1,0 +1,16 @@
+# Translation of AIOSEO - AIOSEO Local Business in French (France)
+# This file is distributed under the same license as the AIOSEO - AIOSEO Local Business package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-05 09:28:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: AIOSEO - AIOSEO Local Business\n"
+
+#: aioseo-local-business/app/LocalBusiness.php:95
+msgid "Plugin is missing required dependencies. Please contact support for more information."
+msgstr "L'extension n'a pas les dépendances nécessaires.  Pour plus d'information, veuillez contacter le support."

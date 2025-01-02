@@ -1,0 +1,19 @@
+.aioseo-location-map {
+	.d-flex {
+		display: flex;
+	}
+	.col {
+		flex: 1;
+	}
+	.col-auto {
+		flex: 0 0 auto;
+	}
+	.aioseo-local-map {
+		.marker-info-window {
+			.name {
+				font-weight: bold;
+				padding-bottom: 3px;
+			}
+		}
+	}
+}

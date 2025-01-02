@@ -1,0 +1,72 @@
+{
+  "name": "wp-business-reviews",
+  "version": "1.5.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack",
+    "production": "cross-env NODE_ENV=production webpack",
+    "watch": "webpack --watch",
+    "lint": "npm run lint:js & npm run lint:scss",
+    "lint:js": "eslint assets/src/**/*.js",
+    "lint:scss": "stylelint assets/src/**/*.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/impress-org/wp-business-reviews.git"
+  },
+  "author": "Impress.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/impress-org/wp-business-reviews/issues"
+  },
+  "homepage": "https://github.com/impress-org/wp-business-reviews#readme",
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 11",
+    "safari >= 8"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "autoprefixer": "^9.8.0",
+    "babel-loader": "^8.1.0",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.6.0",
+    "cross-env": "^5.2.1",
+    "css-loader": "^1.0.1",
+    "cssnano": "^4.1.10",
+    "eslint": "^5.16.0",
+    "eslint-config-wordpress": "^2.0.0",
+    "file-loader": "^2.0.0",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "mini-css-extract-plugin": "^0.4.5",
+    "node-sass": "^4.14.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^0.23.1",
+    "stylelint-config-wordpress": "^13.1.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "wp-pot": "^1.9.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@vimeo/player": "^2.11.0",
+    "axios": "^0.18.1",
+    "choices.js": "^3.0.4",
+    "clipboard": "^2.0.6",
+    "lodash.filter": "^4.6.0",
+    "lodash.get": "^4.4.2",
+    "lodash.truncate": "^4.4.2",
+    "query-string": "^6.12.1",
+    "swiper": "^4.5.1"
+  }
+}

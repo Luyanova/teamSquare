@@ -1,0 +1,2 @@
+/**handles:forminator-inputmask-binding**/
+!function(i,m,a){i(a.document).ajaxComplete(function(a,t,n){-1!==i.inArray("html",n.dataTypes)&&i(".inputmask, [data-inputmask], [data-inputmask-mask], [data-inputmask-alias], [data-inputmask-regex]").each(function(a,t){void 0===t.inputmask&&m().mask(t)})}).ready(function(){i(".inputmask, [data-inputmask], [data-inputmask-mask], [data-inputmask-alias],[data-inputmask-regex]").each(function(a,t){void 0===t.inputmask&&m().mask(t)})})}(jQuery,window.Inputmask,window);

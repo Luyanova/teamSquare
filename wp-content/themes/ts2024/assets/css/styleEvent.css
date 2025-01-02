@@ -1,0 +1,362 @@
+:root {
+    --Brand006-primary: #EC6730;
+    --Brand008-primary: #6f1e82;
+    --Neutral001: #0B0C11;
+    --Neutral004: #60626E;
+    --Neutral005: #7A7D8B;
+    --Neutral008: #F3F3F4;
+    --Neutral009: #FAF9FA;
+    --NeutralBorder: linear-gradient(#121010 15%, #121010 25%);
+}
+
+
+
+
+
+
+.subHeading {
+    color: var(--Brand008-primary, #6f1e82);
+
+}
+
+
+.CTA-violet {
+    display: flex;
+    height: 48px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #A018D0 0%, #740AB6 100%);
+    color: var(--Neutral-009, #FAF9FA);
+    /* CTA */
+    font-family: Overpass;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 20.8px */
+    letter-spacing: -0.32px;
+    position: relative;
+}
+
+.CTA-violet:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), linear-gradient(180deg, #A018D0 0%, #740AB6 100%);
+}
+
+.CTA-violet::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 4px;
+    padding: 1px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.20), rgba(18, 16, 16, 0.30));
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+
+
+
+.adventages {
+    display: flex;
+    max-width: 1312px;
+    padding: 112px 0px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+}
+
+.adventagesImg {
+    height: 600px;
+}
+
+.adventages__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 32px;
+    align-self: stretch;
+    width: 50%;
+}
+
+.adventages__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.adventages__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+
+
+.adventagesList {
+    display: flex;
+    padding: 8px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+
+    p {
+        color: var(--Neutral-004, #60626E);
+        /* Text/regular-16 */
+        font-family: Overpass;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 155%;
+        /* 24.8px */
+    }
+}
+
+
+.adventagesListItem {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.adventagesCTAs {
+    display: flex;
+    gap: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.buttonCard {
+    display: flex;
+    width: 310px;
+    min-width: 310px;
+    height: 310px;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.buttonCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.buttonCardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: absolute;
+    width: 100%;
+    padding: 32px 16px 10px 16px;
+    bottom: 0;
+    gap: 8px;
+    background: linear-gradient(to top, #1c1c1c 10%, rgba(28, 28, 28, 0.1) 85%, transparent 100%);
+    z-index: 1;
+}
+
+.buttonCardTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: var(--Neutral-009, #FAF9FA);
+    font-family: Overpass;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -0.8px;
+}
+
+.hiddenText {
+    white-space: normal;
+    width: 100%;
+    color: var(--Neutral-009, #FAF9FA);
+    font-family: Overpass;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.8px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7; /* this can be any value you want */
+}
+
+.buttonCardContent.expanded {
+    height: 100%; /* Ensures the text is fully revealed */
+    align-items: flex-end;
+    padding-bottom: 16px;
+}
+
+.hiddenText.expanded {
+    max-height: 310px; /* Ensures the text is fully revealed */
+}
+
+.toggleTextButton {
+    transition: transform 0.3s ease;
+}
+
+.buttonCardContent.expanded .toggleTextButton {
+    .toSuppr {
+        display: none;
+    }
+}
+
+
+
+
+
+
+.CTA-Section-O {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 1313px;
+    padding: 112px 0;
+    margin: auto;
+    background: linear-gradient(180deg, #A018D0 0%, #740AB6 100%);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.CTA-Section-O svg {
+    max-width: 100% !important;
+    position: absolute;
+    width: 1000px;
+    height: 629.457px;
+}
+
+.CTA-Section-O .svg1 {
+    left: 0;
+    width: 650px;
+}
+
+.CTA-Section-O .svg2 {
+    right: 0;
+    width: 500px;
+}
+
+.CTA-Section-O .titleMedium {
+    color: var(--Neutral-009, #FAF9FA);
+    text-align: center;
+    font-family: Overpass;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 107%;
+    /* 25.68px */
+    letter-spacing: -1.2px;
+}
+
+.CTA-Section-O .heroP {
+    width: 374px;
+    color: var(--Neutral-010, #FFF);
+    text-align: center;
+    font-family: Overpass;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    /* 24.8px */
+}
+
+
+
+.CTAO-SectionMiddle {
+    text-align: center;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.CTAO-SM-Head {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1025px) {
+
+
+
+
+
+
+
+
+    .adventages {
+        padding: 64px 16px;
+    }
+
+    .adventagesImg {
+        display: none;
+        width: 0;
+    }
+
+    .adventages__container {
+        width: 100%;
+    }
+
+    .psGrey {
+        padding: 64px 0 64px 16px;
+    }
+
+}
