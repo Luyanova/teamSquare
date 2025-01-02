@@ -12,6 +12,7 @@
 
 # htaccess
 /.htaccess
+.htaccess
 
 # Configuration
 wp-config.php
